@@ -2,12 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  :root{
-    --accent-color:#3DA5D9
+@layer base {
+  :root {
+    --accent-color: #3da5d9;
   }
 
-  .body{
-    @apply  h-screen w-full bg-[url('https://as1.ftcdn.net/v2/jpg/00/72/20/70/1000_F_72207074_uJ8nY2nHSK2yNMpiXEJZGxcAjttoCSXx.jpg')] bg-center bg-cover bg-no-repeat 
+  .body {
+    @apply h-screen w-full bg-[url('https://as1.ftcdn.net/v2/jpg/00/72/20/70/1000_F_72207074_uJ8nY2nHSK2yNMpiXEJZGxcAjttoCSXx.jpg')] bg-center bg-cover bg-no-repeat;
   }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #555;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #121212;
+  
+  border-radius: 1rem;
 }

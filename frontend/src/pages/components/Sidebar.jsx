@@ -17,7 +17,7 @@ function Sidebar() {
         <Conversations />
       </div>
 
-      <div className="absolute bottom-1">
+      <div className="">
         <LogoutButton />
       </div>
     </div>
